@@ -52,7 +52,7 @@ def using_delete(array, string)
 end 
 
 def using_delete_at(array, num)
-  return array.delete[num]
+  return array.delete(num)
 end 
 
 
