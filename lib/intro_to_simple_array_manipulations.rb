@@ -11,7 +11,10 @@ def using_pop(array)
 end 
 
 def pop_with_args(array)
-  new_array << array.pop
-  new_array << array.pop
+  first = array.pop 
+  sec = array.pop
+  new_array = []
+  new_array[0] = first
+  new_array[1] = second
   return new_array
 end 
