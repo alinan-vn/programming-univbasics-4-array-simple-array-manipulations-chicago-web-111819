@@ -44,10 +44,17 @@ def using_uniq(array)
 end 
 
 def using_flatten(array)
-  
+  return array.flatten 
 end 
 
+def using_delete(array, string)
+  num = array[string]
+  array.delete[num]
+end 
 
+def using_delete_at(array, integer)
+  
+end 
 
 
 
