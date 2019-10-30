@@ -41,7 +41,8 @@ end
 
 def using_uniq(array)
   i = 0 
-  
+  len = array.size 
+  while i < len
 end 
 
 
