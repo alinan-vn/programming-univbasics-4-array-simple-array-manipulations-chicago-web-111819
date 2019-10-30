@@ -14,7 +14,7 @@ def pop_with_args(array)
   first = array.pop 
   sec = array.pop
   new_array = []
-  new_array[0] = first
-  new_array[1] = sec
+  new_array[0] = sec 
+  new_array[1] = first
   return new_array
 end 
