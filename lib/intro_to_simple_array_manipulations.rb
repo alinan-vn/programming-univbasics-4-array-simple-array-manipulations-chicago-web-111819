@@ -25,7 +25,7 @@ end
 
 def shift_with_args(array)
   new = []
-  new[1] = array.shift 
-  new[0] = array.shift
+  new[0] = array.shift 
+  new[1] = array.shift
   return new
 end 
