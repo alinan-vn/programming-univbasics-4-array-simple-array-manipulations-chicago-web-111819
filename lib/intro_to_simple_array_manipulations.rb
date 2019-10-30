@@ -29,3 +29,32 @@ def shift_with_args(array)
   new[1] = array.shift
   return new
 end 
+
+def using_concat(array1, array2)
+  
+end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
