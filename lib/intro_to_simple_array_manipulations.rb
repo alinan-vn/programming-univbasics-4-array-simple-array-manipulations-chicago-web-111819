@@ -18,3 +18,14 @@ def pop_with_args(array)
   new_array[1] = first
   return new_array
 end 
+
+def using_shift(array)
+  return array.shift 
+end 
+
+def shift_with_args(array)
+  new = []
+  new[1] = array.shift 
+  new[0] = array.shift
+  return new
+end 
